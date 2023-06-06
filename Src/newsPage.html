@@ -1,29 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Welcome to the bonfire, listen to some music while you read the news and grab the current weather">
-        <title>Bonfire</title>
-        <link href="newsStyles.css" rel="stylesheet">
-        <link rel="shortcut icon" type="image/x-icon" href="Images/bonfire.png">
-    </head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Welcome to the bonfire, listen to some music while you read the news and grab the current weather"
+    />
+    <title>Bonfire</title>
+    <link href="newsStyles.css" rel="stylesheet" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="../Images/bonfire.png"
+    />
+  </head>
+  <body>
     <div class="column1">
-        <input type="image" alt="Play" src="Images/pause.png" width="250px" value="Play" id="play">
+      <input
+        type="image"
+        alt="Play"
+        src="../Images/pause.png"
+        width="250px"
+        value="Play"
+        id="play"
+      />
     </div>
     <div class="column2">
-        <ul class="column2List">
-            <li id="clock"></li>
-            <li id='description'></li>
-        </ul>
+      <ul class="column2List">
+        <li id="clock"></li>
+        <li id="description"></li>
+      </ul>
     </div>
     <div class="column3">
-        <ul id="feed"></ul>
+      <ul id="feed"></ul>
     </div>
-<script src="newsPage.js" defer></script>
-<script src="music.js" defer></script>
-<script src="weather.js" defer></script>
-</body>
+    <script src="newsPage.js" defer></script>
+    <script src="music.js" defer></script>
+    <script src="weather.js" defer></script>
+  </body>
 </html>
